@@ -25,7 +25,7 @@ On-premise and access via VPN
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/7706002c-aab6-45cc-9e72-2cb17a6dfb59" />
 
 ### Local
-LLM models in RTX-3070 (.42)
+LLM models in RTX-3070 
 | Models | Num. of Parameters |
 | ------ | ------------- |
 | deepseek-r1 | 7.6b |
@@ -195,7 +195,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 `vpnclient start`
 
 - [Temporary IP address assignment](https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/#temporary-ip-address-assignment)  
-`ip addr add 192.168.x.x/24 dev vpn_gcpadapter`
+`ip addr add 192.168.3x.x/24 dev vpn_gcpadapter`
 
 - Connect to VPN Server (Virtual Hub)  
   ```
