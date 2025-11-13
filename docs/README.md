@@ -222,7 +222,8 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 * https://github.com/openai/whisper
 * https://github.com/SYSTRAN/faster-whisper
 * https://github.com/ahmetoner/whisper-asr-webservice
-* [Softether Ad-hoc VPN](https://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/1.Ad-hoc_VPN) 
+* [Softether Ad-hoc VPN](https://www.softether.org/4-docs/2-howto/1.VPN_for_On-premise/1.Ad-hoc_VPN)
+* [How can I disable (and later re-enable) one of my NVIDIA GPUs?](https://unix.stackexchange.com/questions/654075/how-can-i-disable-and-later-re-enable-one-of-my-nvidia-gpus)
 
 
 ## Legacy 
