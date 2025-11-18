@@ -191,7 +191,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 - [enter into container's shell](https://docs.docker.com/reference/cli/docker/container/exec/)  
 `docker exec -it open-webui /bin/bash`
 
-### [https://github.com/pyannote/pyannote-audio](https://github.com/pyannote/pyannote-audio)
+### [pyannote-audio](https://github.com/pyannote/pyannote-audio)
 - [Requirements]([https://huggingface.co/pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1#requirements))
 
 ### VPN
