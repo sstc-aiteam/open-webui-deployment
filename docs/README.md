@@ -209,6 +209,16 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
   VPN Client>accountstatusget ${VPN Connection Setting Name}
   ```
 
+  1st init setup
+  ```
+  vpncmd # select 2 and Enter
+  VPN Client>NicCreate      # vpn_gcpadapter, vpn network adapter
+  VPN Client>AccountCreate  ${VPN Connection Setting Name}
+  VPN AccountPasswordSet    # set password to connect VPN
+  VPN Client>AccountConnect ${VPN Connection Setting Name}
+  VPN Client>accountstatusget ${VPN Connection Setting Name}
+  ```
+
 ## [Local Development](https://docs.openwebui.com/getting-started/advanced-topics/development/)
 - Build docker images with GPU enabled version under `linux/amd64 (x86)` platform  
 `docker buildx build --no-cache --platform linux/amd64 -t sstcaiteam/open-webui:v0.6.14-diar-cuda --build-arg USE_CUDA=true --build-arg USE_CUDA_VER=cu121 .`
