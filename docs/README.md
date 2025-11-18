@@ -194,7 +194,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 ### [pyannote-audio](https://github.com/pyannote/pyannote-audio)
 - [pyannote.audio speaker diarization toolkit](https://github.com/pyannote/pyannote-audio/tree/3.4.0?tab=readme-ov-file#pyannoteaudio-speaker-diarization-toolkit)
 
-### VPN
+### [VPN](https://www.softether.org/)
 - Enable VPM Client network Adapter  
 `vpnclient start`
 
