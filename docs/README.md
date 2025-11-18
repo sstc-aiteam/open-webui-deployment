@@ -192,7 +192,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 `docker exec -it open-webui /bin/bash`
 
 ### [pyannote-audio](https://github.com/pyannote/pyannote-audio)
-- [Requirements]([https://huggingface.co/pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1#requirements))
+- [pyannote.audio speaker diarization toolkit](https://github.com/pyannote/pyannote-audio/tree/3.4.0?tab=readme-ov-file#pyannoteaudio-speaker-diarization-toolkit)
 
 ### VPN
 - Enable VPM Client network Adapter  
