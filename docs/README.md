@@ -214,7 +214,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 `docker push sstcaiteam/open-webui:v0.6.14-diar-cuda`
 
 - Pull from Docker Hub and Run  
-`docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui sstcaiteam/open-webui:v0.6.14-diar-cuda`
+`docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui sstcaiteam/open-webui:v0.6.14-diar-cuda`  
 `docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui -e WEBUI_NAME="xxx領域報告生成系統平台" sstcaiteam/open-webui:v0.6.34-diar-cuda`
 
 ## References
