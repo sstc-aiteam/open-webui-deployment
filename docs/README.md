@@ -198,11 +198,11 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 - Enable VPM Client network Adapter  
 `vpnclient start`
 
-- Request dynamic IP via DHCP  
-`dhclient -v ${network interfaced}` for user
-
-- [Temporary IP address assignment](https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/#temporary-ip-address-assignment)  
-`ip addr add 192.168.3x.x/24 dev vpn_gcpadapter` for machine instances
+- Request IP for Softether VPN network interface  
+  - GPU server [Temporary IP address assignment](https://documentation.ubuntu.com/server/explanation/networking/configuring-networks/#temporary-ip-address-assignment)  
+`ip addr add 192.168.3x.x/24 dev ${network interface}` for machine instances
+  - client (Request dynamic IP via DHCP)  
+`dhclient -v ${network interface}`
 
 - Connect to VPN Server (Virtual Hub)  
   ```
