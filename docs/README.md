@@ -215,9 +215,9 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
   1st init setup
   ```
   vpncmd # select 2 and Enter
-  VPN Client>NicCreate      # vpn_gcpadapter, vpn network adapter
-  VPN Client>AccountCreate  ${VPN Connection Setting Name}
-  VPN AccountPasswordSet    # set password to connect VPN
+  VPN Client>NicCreate             # vpn_gcpadapter, vpn network adapter
+  VPN Client>AccountCreate ${VPN Connection Setting Name}
+  VPN Client>AccountPasswordSet    # set password to connect VPN
   VPN Client>AccountConnect ${VPN Connection Setting Name}
   VPN Client>accountstatusget ${VPN Connection Setting Name}
   ```
