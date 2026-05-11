@@ -197,7 +197,7 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 ### [VPN](https://www.softether.org/)
 - Enable VPN Server  
 `systemctl start vpnserver`  
-(systemctl script /etc/systemd/system/vpnserver.service)
+(check control script `systemctl status vpnserver`)
 
 - Enable VPN Client network Adapter  
 `vpnclient start`
