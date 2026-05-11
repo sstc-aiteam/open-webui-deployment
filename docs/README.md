@@ -195,7 +195,10 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 - [pyannote.audio speaker diarization toolkit](https://github.com/pyannote/pyannote-audio/tree/3.4.0?tab=readme-ov-file#pyannoteaudio-speaker-diarization-toolkit)
 
 ### [VPN](https://www.softether.org/)
-- Enable VPM Client network Adapter  
+- Enable VPN Server  
+`systemctl start vpnserver` (/etc/systemd/system/vpnserver.service)
+
+- Enable VPN Client network Adapter  
 `vpnclient start`
 
 - Request IP for Softether VPN network interface  
