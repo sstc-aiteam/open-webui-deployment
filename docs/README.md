@@ -239,10 +239,17 @@ We apply ahmetoner's https://github.com/ahmetoner/whisper-asr-webservice to depl
 `docker run -d -p 3000:8080 --gpus all -v open-webui:/app/backend/data --name open-webui -e WEBUI_NAME="xxx領域報告生成系統平台" sstcaiteam/open-webui:v0.6.34-diar-cuda`
 
 ## OpenProject 
-```
-docker run -d -p 8000:80 --name openproject -e OPENPROJECT_HOST__NAME={GCP HTTPS Cert DOMAIN} -e SECRET_KEY_BASE=secret   -v /var/lib/openproject/pgdata:/var/openproject/pgdata   -v /var/lib/openproject/assets:/var/openproject/assets   openproject/openproject:17
-```
+
 * [using container in production](https://www.openproject.org/docs/installation-and-operations/installation/docker/#using-this-container-in-production) 
+
+```
+docker run -d -p 8000:80 --name openproject
+-e OPENPROJECT_HOST__NAME={GCP HTTPS Cert DOMAIN}
+-e SECRET_KEY_BASE=secret
+-v /var/lib/openproject/pgdata:/var/openproject/pgdata
+-v /var/lib/openproject/assets:/var/openproject/assets
+openproject/openproject:17
+```
 
 ## References
 * https://hub.docker.com/r/ollama/ollama
